@@ -23,7 +23,7 @@ can skip to the output state.
 
 5. Place the output onto a register.
 
-## Adder Design
+## Adder/Subtractor Design
 
 The main adder module consists of three 8-bit CLA trees that are cascaded together to make a 24 bit adder for the addition of the
 mantissas. 
