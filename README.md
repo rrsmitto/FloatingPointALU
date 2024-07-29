@@ -3,7 +3,6 @@
 ## 32-Bit Floating Point Addition, Subtraction, and Multiplication
 
 This code is part of a final project for which we had to design and synthesize a 32-bit floating point arithmetic unit capable of addition, subtraction, and multiplication.
-I designed the adder/subtractor and multiplier, my partner designed the pipelining and communcation from the computer which the processor used for input. 
 
 ## Multiplier Design
 
@@ -41,7 +40,7 @@ operation (EOP) is subtraction we wont end up with a negative output, which we w
 
 5. Align the mantissas so that addition can be performed.
 
-6. Add the mantissas, got to a normalization state based on the EOP.
+6. Add the mantissas, go to a normalization state based on the EOP.
 
 7. Nomalization if the EOP was addition.
 
